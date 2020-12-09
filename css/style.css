@@ -9,11 +9,11 @@ html, body {
 body {
     padding: 0;
     margin: 0;
-    background-color: #EEEEE7;
+    background-color: #ff00ff;
 }
 
 .wrapper, .container, .content, .body, .greeting,
-.information, .result {
+.information, .result, .menuGame, .list {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,4 +53,22 @@ body {
 .information {
     margin: 0 10px;
     text-align: center;
+}
+
+.menuGame button {
+    margin: 3px auto;
+}
+
+table {
+    border: 2px solid gray;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid gray;
+    margin: 1px;
+}
+
+td button {
+    margin: 0.5px;
 }
