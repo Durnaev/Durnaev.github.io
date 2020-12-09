@@ -9,7 +9,7 @@ html, body {
 body {
     padding: 0;
     margin: 0;
-    background-color: #ff00ff;
+    background-color: #EEEEE7;
 }
 
 .wrapper, .container, .content, .body, .greeting,
@@ -60,12 +60,12 @@ body {
 }
 
 table {
-    border: 2px solid gray;
+    border: 2px solid green;
     text-align: center;
 }
 
 th, td {
-    border: 1px solid gray;
+    border: 1px solid green;
     margin: 1px;
 }
 

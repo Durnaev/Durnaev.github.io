@@ -1,4 +1,3 @@
-  
 import {
     messageOutput
 } from "./View.js";
